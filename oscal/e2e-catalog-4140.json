@@ -1,0 +1,30 @@
+{
+  "catalog": {
+    "uuid": "e2e00000-0000-4000-8000-000000004140",
+    "metadata": {
+      "title": "E2E Catalog Guard Fixture Controls (#4140)",
+      "version": "1.0",
+      "oscal-version": "1.1.2",
+      "last-modified": "2026-11-12T00:00:00Z"
+    },
+    "groups": [
+      {
+        "id": "e2e",
+        "class": "family",
+        "title": "E2E Synthetic Controls",
+        "controls": [
+          {
+            "id": "e2e-1",
+            "title": "E2E dedicated control (synthetic, reclassify target)",
+            "parts": [
+              {
+                "name": "statement",
+                "prose": "Synthetic control used exclusively by the InfraObserver E2E suite as a reversible reclassification target on the dedicated E2E-CATALOG-4140 framework. It asserts nothing about any real system, standard, or requirement."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
